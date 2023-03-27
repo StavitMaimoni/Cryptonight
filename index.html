@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cryptonight</title>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<link rel="stylesheet" href="styles.css">
+<script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js" defer></script>
+<script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js" defer></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js" defer></script>
+<script src="jquery-3.6.0.js"></script>
+<script src="main.js" defer></script>
+</head>
+
+<body>
+    <!--  scrolling Parallax image -->
+    <div class="wrapper">
+        <header>
+            <img src="assets/Bitcoins.jpg" class="background">
+            <h1 class="title">Welcome!</h1>
+        </header>
+    </div>
+
+    <!--navbar  -->
+    <div class="row">
+        <nav class="navbar" style="background-color:  rgb(70, 99, 118);">
+            <div class="container-fluid">
+                <div class="col"><a class="nav-link" aria-current="page" href="#" data-section="homeSection">Home</a>
+                </div>
+                <div class="col"><a class="nav-link" aria-current="page" href="#" data-section="reportSection">Live
+                        Report</a></div>
+                <div class="col"><a class="nav-link" aria-current="page" href="#" data-section="aboutSection">About</a>
+                </div>
+                <form class="d-flex" role="search">
+                    <div class="col"> <input class="form-control me-2" type="text" placeholder="Search"
+                            aria-label="Search" id="myInput"></div>
+                </form>
+            </div>
+    </div>
+    </nav>
+
+    <!-- website pages -->
+    <section id="homeSection">
+        <div id="dialog" title="You can only select 5 coins">
+            <div class="modal-body">
+            </div>
+    </section>
+
+    <section id="reportSection">
+        <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+    </section>
+
+    <section id="aboutSection">
+        <h2 class="projectHeader">Cryptonight - Project Design</h2>
+        <hr>
+        <h3 class="aboutmeh3">About this project</h3>
+        <p class="textPar">
+            The world of virtual trading has become very popular, along with the a variety of S'API,
+            that <br>provide free information about the state of the coins, price,
+            history,sale, purchase
+            and more.<br> In this project I developed a single page website that provides a current information from
+            the<br> virtual trade world.
+        </p>
+        <hr>
+        <h3 class="aboutmeh3">About me</h3>
+        <p class="textPar">Hello everyone! my name is Stavit Maimoni, I am 28 years old. <br>
+            I am an Operating Room Nurse.
+            Currently I am working at<br> 'Tel Hashomer' Hospital,in the heart surgery department. <br>
+            My hobbies are: swimming, dancing and watch cartoon<br> movies.
+            I live in Israel,Tel Aviv.
+            My email address is:<br> <a href="mailto:">stavitmaimoni@gmail.com</a>
+        <div><img src="assets/stavitpic.jpg" id="stavitPic"></div>
+    </section>
+
+</body>
+
+</html>
